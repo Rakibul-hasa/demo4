@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.opacity{
+    opacity: 0.2;
+}
+.opacity1{
+    position: relative;
+    margin-top: -650px;
+    height: 650px;
+    width: 550px;
+    filter:drop-shadow(28px 18px 20px gray);
+}
+.main{
+    perspective: 500px;
+  perspective-origin: right;  
+  margin:50px;
+  overflow: hidden;
+}
+.price{
+    background-color: black;
+    color: white;
+    margin-top: -560px;
+    height: 550px;
+    box-shadow: 5px 10px 18px 15px #888888;
+    transform-style: preserve-3d;
+  transform: rotateX(5deg);
+  overflow: hidden;
+  
+    
+}
+.card{
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    
+    text-align: center;
+}
+.card p{
+    margin-top:20px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.card h1{
+    font-size:35px;
+    padding-top: 20px;
+}
+.card img{
+    margin-left:10px;
+    height:400px;
+    width:400px;
+    filter:drop-shadow(8px 8px 10px gray);
+    
+    
+}
+.coffee{
+    box-shadow: inset 5px 10px 18px 15px #888888;
+    
+}
+.billing{
+    height: 540px;
+    width: 300px;
+    margin-left:30px;
+    transform-style: preserve-3d;
+    transform: rotate(7deg);
+    background-color:white;
+    color:black;
+}
+.billing .header{
+    height:100px;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 51% 100%, 1% 70%);
+    background-color:#C6801E;
+    color:white;
+
+}
+.billing h1{
+    text-align: center;
+    font-size: 34px;
+     margin-top:12px;
+    padding-top:28px;
+    padding-left:30px;
+}
+.billing h2{
+    text-align:center;
+    font-size: 20px;
+    padding-top:10px;
+}
+.frm{
+    margin-left:40px;
+}
+.billing .frm input{
+    padding-left:10px;
+    margin-top:10px;
+}
+.chk{
+    font-size:10px;
+    margin-left:30px;
+    margin-top:-20px;
+    text-align: justify;
+}
+.button_submit{
+    width:100%;
+    margin-left:-20px;
+}
+.icon{
+    color: #8D6516;
+    font-size:30px;
+    margin-left:25px;
+}
